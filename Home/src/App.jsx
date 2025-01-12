@@ -9,12 +9,12 @@ function App() {
       <header className="App-header">
         <nav className="container">
           <div className="logo">
-            <img src="/logo.png" alt="MomCare Logo" />
-            <span>MomCare</span>
+            <img src="images/logo.png" alt="MomCare Logo" />
+            <span>Mom & Baby</span>
           </div>
           <ul className="nav-links">
             <li><a href="#home">Trang chủ</a></li>
-            <li><a href="#features">Tính năng</a></li>
+            <li><a href="#features">Cộng Đồng</a></li>
             <li><a href="#tracking">Theo dõi</a></li>
             <li><a href="#blog">Blog</a></li>
             <li className="cta-button"><a href="#register">Đăng ký</a></li>
@@ -27,7 +27,7 @@ function App() {
         <section className="hero">
           <div className="container hero-grid">
             <div className="hero-content">
-              <h1>Chào mừng đến với<br />MomCare</h1>
+              <h1>Chào mừng đến với<br />Mom & Baby</h1>
               <h2>Đồng hành cùng mẹ trên hành trình thai kỳ</h2>
               <p>Theo dõi sự phát triển của thai nhi một cách khoa học và chính xác với các tính năng thông minh.</p>
               <div className="hero-buttons">
@@ -36,7 +36,7 @@ function App() {
               </div>
             </div>
             <div className="hero-image">
-              <img src="/hero-pregnancy.png" alt="Pregnancy Journey" />
+              <img src="images/hero-pregnancy.png" alt="Pregnancy Journey" />
             </div>
           </div>
         </section>
@@ -50,6 +50,7 @@ function App() {
             <div className="features-grid">
               <div className="feature-card">
                 <div className="feature-icon">
+                  <img src="images/icon3.png" alt='feature-icon'/>
                   <i className="fas fa-chart-line"></i>
                 </div>
                 <h3>Theo Dõi Tăng Trưởng</h3>
@@ -57,6 +58,7 @@ function App() {
               </div>
               <div className="feature-card">
                 <div className="feature-icon">
+                <img src="images/icon2.png" alt='feature-icon'/>
                   <i className="fas fa-calendar-check"></i>
                 </div>
                 <h3>Nhắc Nhở Thông Minh</h3>
@@ -64,6 +66,7 @@ function App() {
               </div>
               <div className="feature-card">
                 <div className="feature-icon">
+                <img src="images/icon4.png" alt='feature-icon'/>
                   <i className="fas fa-bell"></i>
                 </div>
                 <h3>Cảnh Báo Sớm</h3>
@@ -95,7 +98,7 @@ function App() {
                 </div>
                 <div className="tracking-item">
                   <i className="fas fa-calendar-alt"></i>
-                  <div className="tracking-text">
+                  <div className="tracnking-text">
                     <h4>Lịch Khám Thai</h4>
                     <p>Đặt lịch và nhắc nhở tự động</p>
                   </div>
@@ -103,7 +106,7 @@ function App() {
               </div>
             </div>
             <div className="tracking-image">
-              <img src="/tracking-demo.png" alt="Tracking Features" />
+              <img src="images/tracking-demo.png" alt="Tracking Features" />
             </div>
           </div>
         </section>
@@ -114,8 +117,8 @@ function App() {
           <div className="footer-content">
             <div className="footer-info">
               <div className="logo">
-                <img src="/logo.png" alt="MomCare Logo" />
-                <span>MomCare</span>
+                <img src="images/logo.png" alt="MomCare Logo" />
+                <span>Mom & Baby</span>
               </div>
               <p>Đồng hành cùng mẹ bầu trên hành trình thai kỳ</p>
             </div>
@@ -139,7 +142,7 @@ function App() {
             </div>
           </div>
           <div className="footer-bottom">
-            <p>&copy; 2024 MomCare. Tất cả quyền được bảo lưu.</p>
+            <p>&copy; 2024 Mom & Baby. Tất cả quyền được bảo lưu.</p>
           </div>
         </div>
       </footer>

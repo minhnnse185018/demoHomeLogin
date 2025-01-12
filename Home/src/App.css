@@ -1,3 +1,4 @@
+
 :root {
   --primary-pink: #FFF0F5;
   --secondary-pink: #FFE4E1;
@@ -16,6 +17,7 @@
 }
 
 body {
+  width: 100% ;
   font-family: 'Segoe UI', sans-serif;
   color: var(--text-primary);
   line-height: 1.6;
@@ -23,9 +25,9 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 40px;
 }
 
 /* Header */
@@ -52,8 +54,8 @@ body {
 }
 
 .logo img {
-  height: 60px;
-  width: 60px;
+  height: 70px;
+  width: 70px;
 }
 
 .logo span {
@@ -145,7 +147,7 @@ body {
 }
 
 .hero-image img {
-  width: 100%;
+  width: 95%;
   height: auto;
   border-radius: 16px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
@@ -197,6 +199,10 @@ body {
   justify-content: center;
   margin-bottom: 24px;
 }
+.feature-icon img{
+  width: 130px;
+  height: 110px;
+}
 
 .feature-icon i {
   font-size: 24px;
@@ -230,8 +236,18 @@ body {
   font-size: 36px;
   margin-bottom: 16px;
   color: var(--text-primary);
+}.container .tracking-grid .tracking-image {
+  width: 100%;
+  max-width: 100px;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
-
+.tracking-image img{
+  width: 90%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
 .tracking-features {
   display: grid;
   gap: 24px;

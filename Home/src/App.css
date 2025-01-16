@@ -147,7 +147,7 @@ body {
 }
 
 .hero-image img {
-  width: 95%;
+  width: 90%;
   height: auto;
   border-radius: 16px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
@@ -236,11 +236,6 @@ body {
   font-size: 36px;
   margin-bottom: 16px;
   color: var(--text-primary);
-}.container .tracking-grid .tracking-image {
-  width: 100%;
-  max-width: 100px;
-  border-radius: 16px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 .tracking-image img{
   width: 90%;
